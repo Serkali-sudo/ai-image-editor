@@ -1399,7 +1399,9 @@ public class DrawingActivity extends AppCompatActivity implements View.OnClickLi
                                 new Response.ErrorListener() {
                                     @Override
                                     public void onErrorResponse(VolleyError error) {
-                                        Utils.e(TAG, error.getMessage());
+                                        if(error.getMessage() != null){
+                                            Utils.e(TAG, error.getMessage());
+                                        }
                                         runOnUiThread(new Runnable() {
                                             @Override
                                             public void run() {

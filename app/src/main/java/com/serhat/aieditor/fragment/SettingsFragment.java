@@ -21,7 +21,7 @@ public class SettingsFragment extends PreferenceFragmentCompat {
 
     private ListPreference mThemeList;
 
-    private Preference policy;
+    private Preference github_key;
 
     private FragmentActivity activity;
 
@@ -48,14 +48,14 @@ public class SettingsFragment extends PreferenceFragmentCompat {
         setPreferencesFromResource(R.xml.preference, rootKey);
         mThemeList = (ListPreference) findPreference("themeChoice");
 
-        policy = findPreference("github_key");
+        github_key = findPreference("github_key");
 
-        policy.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+        github_key.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             @Override
             public boolean onPreferenceClick(@NonNull Preference preference) {
                 try {
                     Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse(""));
+                    intent.setData(Uri.parse("https://github.com/Serkali-sudo/AI_Image_Editor"));
                     startActivity(intent);
                 } catch (Exception ignored) {
                 }
