@@ -16,3 +16,4 @@
 ## Screenshots
 ![showcase](https://github.com/Serkali-sudo/AI_Image_Editor/assets/59535990/bbf804a1-86e4-4d1e-9b56-6611df389bfd)
 
+![showcase2](https://github.com/Serkali-sudo/AI_Image_Editor/assets/59535990/91679c25-d3da-4eec-b9b5-5be9b99b67b0)
