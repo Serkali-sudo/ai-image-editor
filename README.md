@@ -12,3 +12,7 @@
 * Downscale or upscale image resolution if it is too small or too big for the ai model
 * Auto save every image generated
 * Upscale images using ai models like: **RealESRGAN**
+
+## Screenshots
+![showcase](https://github.com/Serkali-sudo/AI_Image_Editor/assets/59535990/bbf804a1-86e4-4d1e-9b56-6611df389bfd)
+
