@@ -1,5 +1,7 @@
 # AI Image Editor
 
+A simple client app that demonstrates how to create a mask of drawing on an image and use it as a input for Stable Diffusion AI inpainting models via API.
+
 ![Adsız](https://github.com/Serkali-sudo/AI_Image_Editor/assets/59535990/f43c9e3b-da74-4421-b825-bc941b82c218)
 
 ## Requirements
