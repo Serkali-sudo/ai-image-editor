@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#5C6BC0</color>
+    <color name="paint_back_color">#ffb0bec5</color>
+    <color name="pencil_color">#fff77c73</color>
+    <color name="paint_color">#FF7043</color>
+</resources>

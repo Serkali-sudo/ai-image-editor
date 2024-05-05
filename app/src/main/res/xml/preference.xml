@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="General"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/dark_mode_entries"
+            android:entryValues="@array/dark_mode_values"
+            android:icon="@drawable/palette_line"
+            android:key="themeChoice"
+            android:summary="Auto (Follow System)"
+            android:title="Theme" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="About"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="github_key"
+            android:title="See on GitHub"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

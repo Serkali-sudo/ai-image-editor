@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AIEditor" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.Material3.MaterialAlertDialog</item>
+        <item name="dialogCornerRadius">28dp</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+    </style>
+    <style name="cpv_ColorPickerViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">315dp</item>
+    </style>
+    <color name="trans_color">#83FFFFFF</color>
+
+    <style name="CropStyle" parent="Theme.Material3.Dark">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="alertDialogTheme">@style/ThemeOverlay.Material3.MaterialAlertDialog</item>
+        <item name="dialogCornerRadius">28dp</item>
+        <item name="android:statusBarColor" >@color/black</item>
+
+    </style>
+</resources>

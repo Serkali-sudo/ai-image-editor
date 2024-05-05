@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/delete_multi"
+        android:icon="@drawable/delete_bin_line"
+        android:title="Delete Selected Images"
+        app:showAsAction="always" />
+
+</menu>

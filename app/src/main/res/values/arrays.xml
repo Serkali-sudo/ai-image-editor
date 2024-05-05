@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="resolutions_array">
+        <item>Landscape (16:9)</item>
+        <item>Landscape (4:3)</item>
+        <item>Square (1:1)</item>
+        <item>Portrait (9:16)</item>
+        <item>Portrait (3:4)</item>
+    </string-array>
+
+    <string-array name="dark_mode_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Auto (By Time)</item>
+        <item>Auto (By Battery)</item>
+        <item>Auto (Follow System)</item>
+    </string-array>
+
+
+    <string-array name="dark_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="resolution_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string-array name="upscaling_model_array">
+        <item>RealESRGAN_x4plus</item>
+        <item>RealESRGAN_x2plus</item>
+        <item>RealESRGAN_x4plus_anime_6B</item>
+        <item>RealESRGAN_x4_v3</item>
+        <item>RealESRGAN_x4_wdn_v3</item>
+        <item>RealESRGAN_x4_anime_v3</item>
+    </string-array>
+
+    <string-array name="rescale_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+</resources>

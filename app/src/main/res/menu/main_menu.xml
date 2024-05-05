@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/history_line"
+        android:title="History"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/saved"
+        android:icon="@drawable/save_3_line"
+        android:title="Saved Images"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/upscale"
+        android:icon="@drawable/baseline_auto_awesome_24"
+        android:title="Upscaled Images"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/settings_menu"
+        android:icon="@drawable/settings_line"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+
+</menu>
