@@ -55,7 +55,7 @@ public class SettingsFragment extends PreferenceFragmentCompat {
             public boolean onPreferenceClick(@NonNull Preference preference) {
                 try {
                     Intent intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://github.com/Serkali-sudo/AI_Image_Editor"));
+                    intent.setData(Uri.parse("https://github.com/Serkali-sudo/AI-Image-Editor"));
                     startActivity(intent);
                 } catch (Exception ignored) {
                 }
