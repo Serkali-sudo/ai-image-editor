@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AI-Image-Editor"
+rootProject.name = "ai-image-editor"
 include ':app'
