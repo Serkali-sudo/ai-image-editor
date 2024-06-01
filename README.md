@@ -21,6 +21,8 @@ A simple client app that demonstrates how to create a mask of drawing on an imag
 * Add an image you want to edit then paint the parts you want to edit
 * Write a prompt to tell ai to how it should edit
 * Then hit run and wait the result will appear on the top
+
+https://github.com/Serkali-sudo/ai-image-editor/assets/59535990/b105992f-3761-4e12-a675-a388731e74a4
   
 ## Screenshots
 ![showcase_big](https://github.com/Serkali-sudo/AI_Image_Editor/assets/59535990/eaebf3c0-7a89-4f37-9484-f734fdcf54ed)
